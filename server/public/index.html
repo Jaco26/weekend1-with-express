@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weekend Challenge 1: Salary Calculator</title>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Add Employees</h1>
+        <div class="inputDiv">
+            <input class="inputel" type="text" id="firstNameIn" placeholder="first name" />
+            <input class="inputel" type="text" id="lastNameIn" placeholder="last name" />
+            <input class="inputel" type="text" id="jobTitle" placeholder="Job Title" />
+            <input class="inputel" type="number" id="employeeId" placeholder="Employee ID" />
+            <input class="inputel" type="number" id="salary" placeholder="Annual Salary" />
+            <button class="inputel" id="submitBtn">Submit</button>
+        </div>
+
+        <div class="outputDiv">
+            <table id="infoTable">
+                <thead>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Job Title</th>
+                    <th>ID Number</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <h2>Operations Costs</h2>
+            <table id="totalsTable">
+                <thead>
+                    <td id="totalCost">
+                        <p>Total Spent on Salaries/Month: $0</p>
+                    </td>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

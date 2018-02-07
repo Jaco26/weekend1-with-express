@@ -1,0 +1,25 @@
+{
+  "name": "weekend1-with-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaco26/weekend1-with-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaco26/weekend1-with-express/issues"
+  },
+  "homepage": "https://github.com/Jaco26/weekend1-with-express#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {}
+}
